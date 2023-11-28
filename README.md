@@ -22,7 +22,7 @@ $ npm i --save 2049-system
 /*
  *加密解密
  */
-import { to2049, toNumber } from "./src/index";
+import { to2049, toNumber } from "2049-system";
 
 const hello = to2049("1122972")
 console.log(hello) // 你好

@@ -1,6 +1,6 @@
 {
   "name": "2049-system",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "2049进制(基于2048个高频中文汉字)",
   "main": "index.js",
   "scripts": {
