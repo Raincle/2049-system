@@ -24,25 +24,25 @@ $ npm i --save 2049-system
  */
 import { to2049, toNumber } from "./src/index";
 
-const hello = to2049("3706792")
+const hello = to2049("1122972")
 console.log(hello) // 你好
 const deceimalHello = toNumber("你好")
-console.log(deceimalHello) // 3706792
+console.log(deceimalHello) // 1122972
 
-const helloHex = to2049("388fa8", 16)
+const helloHex = to2049("11229c", 16)
 console.log(helloHex) // 你好
 const hexHello = toNumber("你好", 16)
-console.log(hexHello) // 388fa8
+console.log(hexHello) // 11229c
 
-const helloWorld = to2049("169592022349604")
+const helloWorld = to2049("4714687261829")
 console.log(helloWorld) // 你好世界
 const deceimalHelloWorld = toNumber("你好世界")
-console.log(deceimalHelloWorld) // 169592022349604
+console.log(deceimalHelloWorld) // 4714687261829
 
-const helloWorldHex = to2049("9a3e383fb724", 16)
+const helloWorldHex = to2049("449b9426c85", 16)
 console.log(helloWorldHex) // 你好世界
 const hexHelloWorld = toNumber("你好世界", 16)
-console.log(hexHelloWorld) // 9a3e383fb724
+console.log(hexHelloWorld) // 449b9426c85
 
 ```
 
